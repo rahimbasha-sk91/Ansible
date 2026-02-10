@@ -2,9 +2,7 @@
   hosts: local
   connection: local
   vars:
-    COURSE: "Devops"
-    DURATION: "4monts"
-    TRAINER: "SIVA"
+    - course.yaml
   tasks:
    - name: print variables
      vars:
