@@ -3,12 +3,12 @@
   connection: local
   vars:
     COURSE: "Devops"
-    DURATION: "4 monts"
+    DURATION: "4monts"
     TRAINER: "SIVA"
   tasks:
    - name: print variables
      vars:
        COURSE: ansible
      ansible.builtin.debug:
-       msg: "Course is: {{ COURSE}}, trainer is: {{TRAINER}}"
+       msg: "Course is: {{ COURSE}}, duration is: {{DURATION}}"
        
