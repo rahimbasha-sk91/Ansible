@@ -1,5 +1,5 @@
 - name: check idempotency
-  becomne: yes
+  become: yes
   hosts: local
   connection: local
   tasks:
