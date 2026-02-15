@@ -11,3 +11,4 @@
     - { name: "mysql", state: "absent"} # map/dict
     - { name: "nginx", state: "present"}
     - { name: "zip", state: "present"}
+  
