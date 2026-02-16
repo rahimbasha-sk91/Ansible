@@ -12,4 +12,4 @@
     ansible.builtin.service:
       name: nginx
       state: start
-      enabled: disable
+      enabled: yes
